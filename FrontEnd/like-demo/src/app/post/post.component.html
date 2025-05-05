@@ -1,0 +1,10 @@
+<div class="container">
+    <h1>Live Like Updates</h1>
+  
+    <div *ngFor="let post of posts" class="post" [id]="'post-' + post.id">
+      <h3>{{ post.content }}</h3>
+      <p><strong>Likes:</strong> <span>{{ post.likes }}</span></p>
+      <button class="like-btn" (click)="likePost(post.id)">Like</button>
+    </div>
+  </div>
+  

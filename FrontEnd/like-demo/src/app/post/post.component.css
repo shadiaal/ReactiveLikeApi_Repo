@@ -1,0 +1,25 @@
+.container {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+  }
+  
+  .post {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+  
+  .like-btn {
+    padding: 0.5rem 1rem;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .like-btn:hover {
+    background: #0056b3;
+  }
+  
